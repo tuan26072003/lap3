@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.lap2.Lap1.MainActivity2"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:id="@+id/iv"/>
+
+    <Button
+        android:id="@+id/btnEx1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bai 1"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:onClick="Bai1"/>
+    <Button
+        android:layout_marginTop="10sp"
+        android:id="@+id/btnEx2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bai 2"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:onClick="Bai2"/>
+    <Button
+        android:layout_marginTop="10sp"
+        android:id="@+id/btnEx3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bai 3"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:onClick="Bai3"/>
+    <Button
+        android:layout_marginTop="10sp"
+        android:id="@+id/btnEx4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bai 4"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:onClick="Bai4"/>
+
+</LinearLayout>
